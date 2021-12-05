@@ -1,7 +1,7 @@
 module.exports = {
     title: '笔记',
     base: '/notes/',
-    dest: './docs',
+    dest: './dist',
     themeConfig: {
         nav: [
             { 'text': '前端', link: '/fe/' },
