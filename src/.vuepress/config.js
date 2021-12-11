@@ -5,21 +5,53 @@ module.exports = {
   displayAllHeaders: true,
   themeConfig: {
     nav: [
-      { text: '前端', link: '/fe/' },
-      { text: '后端', link: '/fb/' },
-      { text: '工具', link: '/tools/' }
+      { text: '前端', link: '/fe/js' },
+      { text: '后端', link: '/fb/node' },
+      { text: '数据库', link: '/database/sqlServer' },
+      { text: 'devOps', link: '/devOps/nginx' },
+      { text: '常见问题', link: '/qr/' },
+      { text: '工具', link: '/tools/git' },
     ],
-    siderbar: {
-      '/tools/': [
+    sidebar: {
+      '/fe/': [
         {
-          title: 'vscode',
-          sidebarDepth: 0,
-          path: '/tools/vscode'
+          title: 'JavaScript',
+          path: 'js'
         },
         {
-          title: 'git',
-          sidebarDepth: 0,
-          path: '/tools/git'
+          title: 'TypeScript',
+          path: 'ts'
+        }
+      ],
+      '/fb/': [
+        {
+          title: 'Node',
+          path: 'node'
+        }
+      ],
+      '/database/': [
+        {
+          title: 'SQL Server',
+          path: 'sqlServer'
+        }
+      ],
+      '/devOps/': [
+        {
+          title: 'Nginx',
+          path: 'nginx'
+        }
+      ],
+      '/qr/': [
+        ''
+      ],
+      '/tools/': [
+        {
+          title: 'Git',
+          path: 'git'
+        },
+        {
+          title: 'VS Code',
+          path: 'vscode'
         }
       ]
     }
