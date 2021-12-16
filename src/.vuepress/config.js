@@ -21,6 +21,10 @@ module.exports = {
         {
           title: 'TypeScript',
           path: 'ts'
+        },
+        {
+          title: 'Webpack',
+          path: 'webpack'
         }
       ],
       '/fb/': [
